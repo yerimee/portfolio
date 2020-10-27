@@ -1,0 +1,1214 @@
+@charset "utf-8";
+
+#wrap {
+	min-width: 1200px;
+	width: 100%;
+}
+
+header {
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header > ul {
+	display: none;
+}
+
+header > .logo {
+	position: absolute;
+	left: 0;
+	top: 50px;
+	width: 140px;
+	text-indent: -9999px;
+}
+header > .logo > a {
+	display: block;
+	height: 50px;
+	background-image: url(./../images/img_nateonlogo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+header > .sub {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 50px;
+}
+header > .sub > a {
+	position: absolute;
+	top: 5px;
+	display: block;
+}
+header > .sub > a:hover {
+	text-decoration: underline;
+}
+
+header > .sub > ul {
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+header > .sub > ul > li {
+	float: left;
+	margin-right: 10px;
+}
+header > .sub > ul > li > a:hover {
+	text-decoration: underline;
+}
+
+header > nav {
+	position: absolute;
+	left: 220px;
+	top: 65px;
+}
+
+header > nav > .gnb > li {
+	float: left;
+	margin-right: 80px;
+	font-size: 16px;
+}
+header > nav > .gnb > li.on {
+	font-weight: 600;
+}
+header > nav > .gnb > li > a:hover {
+	text-decoration: underline;
+}
+
+header > nav > p {
+	position: absolute;
+	right: -160px;
+	top: -5px;
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #aaa;
+	border-radius: 20px;
+}
+header > nav > p:last-child {
+	right: -260px;
+}
+header > nav > p > .point {
+	display: block;
+	height: 30px;
+	color: #aaa;
+}
+
+header > a {
+	display: none;
+}
+
+section {
+	position: relative;
+	top: 130px;
+	width: 100%;
+}
+
+section > .nateon-service {
+	width: 100%;
+	height: 800px;
+	background-color: #7f99e2;
+}
+section > .nateon-service > h2 {
+	position: absolute;
+	left: 50%;
+	top: 150px;
+	width: 360px;
+	height: 200px;
+	margin-left: -600px;
+	color: #fff;
+	font-size: 55px;
+	font-weight: 800;
+}
+section > .nateon-service > p {
+	position: absolute;
+	left: 50%;
+	top: 400px;
+	width: 340px;
+	margin-left: -600px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+}
+section > .nateon-service > ul {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	width: 800px;
+	height: 700px;
+	margin-left: -90px;
+	text-indent: -9999px;
+}
+section > .nateon-service > ul > li {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+section > .nateon-service > ul > li.on {
+	display: block;
+}
+section > .nateon-service > ul > li:nth-child(1) {
+	background-image: url(./../images/keyvisual-mobile.png);
+	top: 50px;
+}
+section > .nateon-service > ul > li:nth-child(2) {
+	height: 800px;
+	background-image: url(./../images/keyvisual-pc.png);
+	background-size: contain;
+	background-position: center center;
+}
+section > .nateon-service > a {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 500px;
+	width: 180px;
+	height: 60px;
+	margin-left: -600px;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+section > .nateon-service > a:nth-child(4) {
+	background-image: url(./../images/btn-windows.png);
+}
+section > .nateon-service > a:nth-child(5) {
+	background-image: url(./../images/btn-mac.png);
+	margin-left: -408px;
+}
+section > .nateon-service > a:nth-child(6) {
+	background-image: url(./../images/btn-google.png);
+	top: 570px;
+}
+section > .nateon-service > a:nth-child(7) {
+	background-image: url(./../images/btn-appstore.png);
+	margin-left: -408px;
+	top: 570px;
+}
+
+.talk-slides {
+	position: relative;
+	width: 100%;
+	height: 800px;
+}
+.talk-slides > h2 {
+	position: absolute;
+	left: 50%;
+	top: 200px;
+	margin-left: 180px;
+	font-size: 19px;
+}
+.talk-slides .cont {
+	display: none;
+	position: absolute;
+	left: 545px;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin-left: -550px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.talk-slides > .slides-container > .on {
+	display: block;
+}
+.talk-slides > .slides-container > p {
+	position: absolute;
+	top: 50%;
+	width: 80px;
+	margin-top: -60px;
+	text-indent: -9999px;
+}
+.talk-slides > .slides-container > .prev {
+	left: 0;
+}
+.talk-slides > .slides-container > .next {
+	right: 0;
+}
+.talk-slides > .slides-container > p > a {
+	display: block;
+	height: 120px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+.talk-slides > .slides-container > .prev > a {
+	background-image: url(./../images/left.png);
+}
+.talk-slides > .slides-container > .next > a {
+	background-image: url(./../images/right.png);
+}
+
+.talk-slides .cont > p {
+	position: absolute;
+	left: 50%;
+	top: 0;
+}
+.talk-slides .cont > p:nth-child(1) {
+	width: 400px;
+	top: 250px;
+	margin-left: 180px;
+	font-size: 40px;
+	font-weight: 600;
+}
+.talk-slides .cont > p:nth-child(2) {
+	left: 50%;
+	top: 400px;
+	margin-left: 180px;
+	line-height: 30px;
+	font-size: 16px;
+}
+.talk-slides .cont .img {
+	position: absolute;
+	left: 50%;
+	top: 55px;
+	width: 500px;
+	height: 700px;
+	margin-left: -450px;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.talk-slides .talk > .img {
+	background-image: url(./../images/1-img-message.png);
+}
+.talk-slides .function > .img {
+	top: 60px;
+	margin-left: -500px;
+	background-image: url(./../images/2-img-mention.png);
+}
+.talk-slides .friendlist > .img {
+	top: 130px;
+	background-image: url(./../images/3-img-buddy.png);
+}
+.talk-slides .emotion > .img {
+	top: 100px;
+	margin-left: -500px;
+	background-image: url(./../images/4-img-emoticon.png);
+}
+
+.pc-control {
+	position: relative;
+	width: 100%;
+	height: 800px;
+	background-color: #f2f4f9;
+}
+.pc-control > h2 {
+	position: absolute;
+	left: 50%;
+	top: 250px;
+	width: 530px;
+	margin-left: -600px;
+	font-size: 40px;
+}
+.pc-control > p {
+	position: absolute;
+	left: 50%;
+	top: 400px;
+	width: 560px;
+	margin-left: -600px;
+	line-height: 30px;
+	font-size: 16px;
+}
+.pc-control > p::after {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -400px;
+	width: 250px;
+	height: 800px;
+	margin-left: 600px;
+	background-image: url(./../images/img-bng.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	content: '';
+}
+
+.teamroom {
+	position: relative;
+	width: 100%;
+	height: 800px;
+	background-color: #56689a;
+}
+.teamroom > h2 {
+	position: absolute;
+	left: 50%;
+	top: 150px;
+	width: 600px;
+	margin-left: -600px;
+	color: #fff;
+	font-size: 40px;
+}
+.teamroom > .teamroom-container {
+	position: absolute;
+	left: 50%;
+	bottom: 100px;
+	margin-left: -600px;
+}
+.teamroom > .teamroom-container > div {
+	float: left;
+}
+.teamroom > .teamroom-container > div > p {
+	width: 290px;
+	margin-right: 100px;
+	color: #cbcdd1;
+	line-height: 30px;
+	font-size: 14px;
+}
+.teamroom > .teamroom-container > div > p.tit {
+	width: 300px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 19px;
+	font-weight: 600;
+}
+.teamroom > .teamroom-container > div > .tit::after {
+	display: block;
+	position: absolute;
+	left: 50%;
+	bottom: 200px;
+	width: 150px;
+	height: 150px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	content: '';
+}
+.teamroom > .teamroom-container > .team > .tit::after {
+	margin-left: -600px;
+	background-image: url(./../images/img-group.png);
+}
+.teamroom > .teamroom-container > .share > .tit::after {
+	margin-left: -200px;
+	background-image: url(./../images/img-file.png);
+}
+.teamroom > .teamroom-container > .history > .tit::after {
+	margin-left: 200px;
+	background-image: url(./../images/img-history.png);
+}
+
+.nateon {
+	position: relative;
+	width: 100%;
+	height: 800px;
+	background-color: #f2f4f9;
+}
+
+.nateon > h2 {
+	position: absolute;
+	left: 50%;
+	top: 250px;
+	margin-left: -600px;
+	font-size: 40px;
+}
+
+.nateon-container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: 400px;
+}
+
+.nateon > .nateon-container > li {
+	display: none;
+	position: absolute;
+	left: 50%;
+	bottom: 120px;
+	margin-left: -600px;
+}
+.nateon > .nateon-container > li.on {
+	display: block;
+}
+
+.nateon > .nateon-container > li > p {
+	margin-right: 100px;
+	color: gray;
+	line-height: 30px;
+	font-size: 14px;
+}
+.nateon > .nateon-container > li > p.tit {
+	color: #000;
+	font-size: 19px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.nateon > .nateon-container > li > .tit::after {
+	display: block;
+	position: absolute;
+	left: 50%;
+	bottom: 200px;
+	width: 70px;
+	height: 70px;
+	margin-left: -230px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	content: '';
+}
+.nateon > .nateon-container > .nate > .tit::after {
+	background-image: url(./../images/ic-nate.png);
+}
+.nateon > .nateon-container > .shopping > .tit::after {
+	margin-left: -255px;
+	background-image: url(./../images/ic-shopping.png);
+}
+.nateon > .nateon-container > .emoticon > .tit::after {
+	margin-left: -265px;
+	background-image: url(./../images/ic-act.png);
+}
+
+.nateon > .nateon-container > li > .img {
+	position: absolute;
+	left: 50%;
+	bottom: -120px;
+	width: 500px;
+	height: 800px;
+	margin-left: 400px;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+.nateon > .nateon-container > .nate > .img {
+	background-image: url(./../images/img-nate.png);
+}
+.nateon > .nateon-container > .shopping > .img {
+	bottom: -20px;
+	height: 600px;
+	background-image: url(./../images/img-shopping.png);
+}
+.nateon > .nateon-container > .emoticon > .img {
+	background-image: url(./../images/img-acticon-02.png);
+}
+
+.nateon > .nateon-container > .emoticon > .gif {
+	position: absolute;
+	left: 660px;
+	top: -115px;
+	width: 200px;
+	height: 200px;
+	text-indent: -9999px;
+	background-image: url(./../images/eoi\ company_22.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.nateon > p {
+	position: absolute;
+	top: 50%;
+	width: 80px;
+	margin-top: -60px;
+	text-indent: -9999px;
+}
+.nateon > .prev {
+	left: 0;
+}
+.nateon > .next {
+	right: 0;
+}
+.nateon > p > a {
+	display: block;
+	height: 120px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+.nateon > .prev > a {
+	background-image: url(./../images/prev.png);
+}
+.nateon > .next > a {
+	background-image: url(./../images/next.png);
+}
+
+.noteon-always {
+	position: relative;
+	width: 100%;
+	height: 800px;
+	color: #fff;
+	background-color: #8691a2;
+}
+.noteon-always > h2 {
+	position: absolute;
+	left: 50%;
+	top: 120px;
+	margin-left: -600px;
+	font-size: 40px;
+}
+.noteon-always > p {
+	position: absolute;
+	left: 50%;
+	top: 200px;
+	margin-left: -600px;
+	font-size: 17px;
+	line-height: 30px;
+}
+
+.noteon-always > .dnld {
+	position: absolute;
+	left: 50%;
+	bottom: 200px;
+	margin-left: -600px;
+	font-size: 17px;
+	font-weight: 600;
+}
+.noteon-always > .dnld > ul {
+	float: left;
+	width: 250px;
+	margin-right: 100px;
+}
+.noteon-always > .dnld > ul > li {
+	margin-top: 10px;
+	height: 50px;
+	line-height: 50px;
+}
+.noteon-always > .dnld > ul > li:first-child {
+	margin-top: 0;
+	border-bottom: 5px solid #fff;
+}
+
+.noteon-always > .dnld > ul > li > a::after {
+	display: block;
+	position: absolute;
+	left: 230px;
+	top: 75px;
+	width: 20px;
+	height: 20px;
+	content: '';
+	background-image: url(./../images/dnld.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.noteon-always > .dnld > ul > li:nth-child(3) > a::after {
+	top: 135px;
+}
+
+.noteon-always > .dnld > ul:nth-child(2) > li > a::after {
+	left: 580px;
+}
+
+.noteon-always > .dnld > ul:nth-child(3) > li > a::after {
+	display: none;
+}
+
+.noteon-always > .dnld > ul > li > a {
+	color: #fff;
+}
+
+footer {
+	position: relative;
+	width: 1200px;
+	height: 100px;
+	margin: 130px auto 0;
+	line-height: 100px;
+	text-align: center;
+}
+
+footer > ul > li {
+	float: left;
+	margin-right: 15px;
+}
+footer > ul > li > a {
+	padding-right: 15px;
+	border-right: 1px solid gray;
+}
+footer > ul > li > a.on {
+	font-weight: 600;
+}
+
+footer > address {
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: gray;
+}
+
+/* 모바일 코드 */
+
+@media screen and (max-width: 768px) {
+	#wrap {
+		min-width: 320px;
+		width: 100%;
+		height: 100%;
+	}
+
+	body {
+		font-size: 12px;
+	}
+
+	header {
+		position: relative;
+		width: 100%;
+		height: 8%;
+	}
+
+	header > ul {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	header > ul > li {
+		position: absolute;
+		left: 2%;
+		top: 20%;
+		width: 10%;
+		height: 60%;
+		text-indent: -9999px;
+		background-repeat: no-repeat;
+		background-size: 60%;
+		background-position: center center;
+	}
+	header > ul > li:first-child {
+		background-image: url(./../images/menu.png);
+	}
+	header > ul > li:last-child {
+		left: 87%;
+		top: 15%;
+		width: 12%;
+		height: 70%;
+		background-image: url(./../images/more.png);
+		background-size: 60%;
+	}
+
+	header > ul > li > a {
+		display: block;
+		height: 100%;
+	}
+
+	header > h1.logo {
+		position: absolute;
+		left: 50%;
+		top: 0;
+		width: 30%;
+		height: 100%;
+		margin-left: -15%;
+	}
+	header > h1.logo > a {
+		display: block;
+		height: 100%;
+	}
+
+	header > .sub {
+		display: none;
+		position: absolute;
+		width: 100%;
+		height: 1000%;
+		background-color: #6791ef;
+		z-index: 900;
+	}
+	header > .sub > a {
+		display: none;
+	}
+
+	header > .sub > ul {
+		position: absolute;
+		left: 0;
+		top: 10%;
+		width: 100%;
+		height: 100%;
+	}
+	header > .sub > ul > li {
+		display: block;
+		float: initial;
+		width: 100%;
+		height: 10%;
+		font-size: 16px;
+		font-weight: 800;
+		text-align: center;
+		line-height: 60px;
+		border-bottom: 1px solid rgba(225, 225, 225, 0.3);
+	}
+	header > .sub > ul > li:first-child {
+		border-top: 1px solid rgba(225, 225, 225, 0.3);
+	}
+	header > .sub > ul > li:last-child {
+		display: none;
+	}
+	header > .sub > ul > li > a {
+		display: block;
+		height: 100%;
+		color: #fff;
+	}
+	header > .sub > ul > li > a:hover {
+		text-decoration: initial;
+		background-color: rgba(225, 225, 225, 0.3);
+	}
+
+	header > nav {
+		display: none;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 1000%;
+		background-color: #6791ef;
+		z-index: 1000;
+	}
+	header > nav > .gnb {
+		position: absolute;
+		left: 0;
+		top: 10%;
+		width: 100%;
+		height: 100%;
+	}
+	header > nav > .gnb > li {
+		float: initial;
+		width: 100%;
+		height: 10%;
+		font-size: 16px;
+		font-weight: 800;
+		text-align: center;
+		line-height: 60px;
+		border-bottom: 1px solid rgba(225, 225, 225, 0.3);
+	}
+	header > nav > .gnb > li:first-child {
+		border-top: 1px solid rgba(225, 225, 225, 0.3);
+	}
+
+	header > nav > .gnb > li > a {
+		display: block;
+		height: 100%;
+		color: #fff;
+	}
+	header > nav > .gnb > li > a:hover {
+		text-decoration: initial;
+		background-color: rgba(225, 225, 225, 0.3);
+	}
+
+	header > a {
+		display: none;
+		position: absolute;
+		right: 1%;
+		top: 20%;
+		width: 12%;
+		height: 60%;
+		text-indent: -9999px;
+		background-image: url(./../images/done.png);
+		background-repeat: no-repeat;
+		background-size: 60%;
+		background-position: center center;
+		z-index: 1100;
+	}
+
+	section {
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 4425px;
+	}
+	section > .nateon-service {
+		display: block;
+		width: 100%;
+		height: 620px;
+	}
+	section > .nateon-service > h2 {
+		left: 10%;
+		top: 9%;
+		width: 80%;
+		margin-left: 0;
+		font-size: 24px;
+		text-align: center;
+	}
+	section > .nateon-service > p {
+		left: 10%;
+		top: 11%;
+		width: 80%;
+		margin-left: 0;
+		font-size: 18px;
+		font-weight: 300;
+		text-align: center;
+	}
+	section > .nateon-service > ul {
+		left: 0;
+		top: 1.5%;
+		width: 100%;
+		height: 100%;
+		margin-left: 0;
+	}
+	section > .nateon-service > ul > li {
+		left: 10%;
+		top: 0;
+		width: 80%;
+		height: 6%;
+		background-size: contain;
+		background-position: center center;
+	}
+	section > .nateon-service > ul > li:nth-child(1) {
+		top: 0;
+	}
+	section > .nateon-service > ul > li:nth-child(2) {
+		top: -1%;
+		height: 8%;
+	}
+
+	section > .nateon-service > a {
+		display: none;
+	}
+
+	section > .talk-slides {
+		display: block;
+		width: 100%;
+		height: 750px;
+	}
+
+	section > .talk-slides > h2 {
+		left: 0;
+		top: 6%;
+		width: 100%;
+		margin-left: 0;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	section > .talk-slides > .slides-container > .cont {
+		left: 0;
+		top: 0;
+		width: 40%;
+		height: 60%;
+		margin-left: 0;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	section > .talk-slides > .slides-container > p {
+		position: absolute;
+		top: 50%;
+		width: 8%;
+		height: 12%;
+		margin-top: -6%;
+		text-indent: -9999px;
+	}
+
+	section > .talk-slides > .slides-container > p > a {
+		height: 100%;
+	}
+
+	section > .talk-slides .cont > p {
+		left: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+	section > .talk-slides .cont > p:nth-child(1) {
+		left: 20%;
+		top: 24%;
+		width: 210%;
+		margin-left: 0;
+		font-size: 29px;
+		font-weight: 600;
+	}
+	section > .talk-slides .cont > p:nth-child(2) {
+		left: 15%;
+		top: 135%;
+		width: 220%;
+		margin-left: 0;
+		line-height: 30px;
+		font-size: 13px;
+	}
+	section > .talk-slides .cont .img {
+		left: 20%;
+		top: 47%;
+		width: 210%;
+		height: 80%;
+		margin-left: 0;
+		background-position: center center;
+	}
+	section > .talk-slides .function > .img {
+		left: 14%;
+		top: 47%;
+	}
+	section > .talk-slides .friendlist > .img {
+		left: 23%;
+		top: 47%;
+	}
+	section > .talk-slides .emotion > .img {
+		top: 47%;
+		margin-left: 0;
+	}
+
+	section > .pc-control {
+		display: block;
+		height: 680px;
+		background-image: url(./../images/img-bng.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: right;
+	}
+	section > .pc-control > h2 {
+		left: 0;
+		top: 6%;
+		width: 100%;
+		margin-left: 0;
+		font-size: 16px;
+		text-align: center;
+	}
+	section > .pc-control > p {
+		left: 4%;
+		top: 12%;
+		width: 70%;
+		height: 100%;
+		margin-left: 0;
+		line-height: 28px;
+		font-size: 13px;
+	}
+
+	section > .pc-control > p::after {
+		position: absolute;
+		left: 65%;
+		top: 0;
+		width: 70%;
+		height: 100%;
+		margin-left: 0;
+		background-image: none;
+	}
+
+	section > .teamroom {
+		display: block;
+		height: 725px;
+	}
+	section > .teamroom > h2 {
+		left: 7%;
+		top: 8%;
+		width: 86%;
+		margin-left: 0;
+		font-size: 26px;
+		text-align: center;
+	}
+	section > .teamroom > .teamroom-container {
+		left: 22%;
+		bottom: 4%;
+		width: 77%;
+		height: 75%;
+		margin-left: 0;
+	}
+	section > .teamroom > .teamroom-container > div {
+		float: initial;
+	}
+	section > .teamroom > .teamroom-container > div > p {
+		width: 85%;
+		margin-right: 0;
+		font-size: 13px;
+	}
+	section > .teamroom > .teamroom-container > div > p.tit {
+		width: 100%;
+		margin-top: 20px;
+		color: #fff;
+		font-size: 16px;
+	}
+	section > .teamroom > .teamroom-container > div > .tit::after {
+		left: -22%;
+		bottom: 0;
+		top: 0;
+		width: 15%;
+		height: 10%;
+		background-size: contain;
+		background-position: center center;
+	}
+	section > .teamroom > .teamroom-container > .team > .tit::after {
+		top: 4%;
+		margin-left: 0;
+	}
+	section > .teamroom > .teamroom-container > .share > .tit::after {
+		top: 34%;
+		margin-left: 0;
+	}
+	section > .teamroom > .teamroom-container > .history > .tit::after {
+		top: 68%;
+		margin-left: 0;
+	}
+
+	section > .nateon {
+		height: 750px;
+	}
+
+	section > .nateon > h2 {
+		left: 5%;
+		top: 8%;
+		width: 90%;
+		margin-left: 0;
+		font-size: 26px;
+		text-align: center;
+	}
+
+	section > .nateon > .nateon-container {
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		margin-top: 0;
+	}
+
+	section > .nateon > .nateon-container > li {
+		left: 0;
+		bottom: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		margin-left: 0;
+	}
+	section > .nateon > .nateon-container > li > p {
+		position: absolute;
+		top: 85%;
+		width: 100%;
+		margin-right: 0;
+		line-height: 30px;
+		font-size: 13px;
+		text-align: center;
+	}
+	section > .nateon > .nateon-container > li > p.tit {
+		left: 0;
+		top: 70%;
+		width: 100%;
+		margin-bottom: 20px;
+		font-size: 16px;
+	}
+	section > .nateon > .nateon-container > li > .tit::after {
+		left: 50%;
+		bottom: 0;
+		top: 180%;
+		width: 10%;
+		height: 100%;
+		margin-left: -3%;
+		background-size: contain;
+		content: '';
+	}
+	section > .nateon > .nateon-container > .shopping > .tit::after {
+		margin-left: -3%;
+	}
+	section > .nateon > .nateon-container > .emoticon > .tit::after {
+		margin-left: -3%;
+	}
+
+	section > .nateon > .nateon-container > li > .img {
+		left: 10%;
+		bottom: 0;
+		top: 20%;
+		width: 80%;
+		height: 50%;
+		margin-left: 0;
+	}
+	section > .nateon > .nateon-container > .shopping > .img {
+		bottom: 0;
+		top: 25%;
+		height: 40%;
+	}
+	section > .nateon > .nateon-container > .emoticon > p:nth-child(2) {
+		left: 5%;
+		width: 90%;
+	}
+	section > .nateon > .nateon-container > .emoticon > .img {
+		left: 14%;
+		top: 24%;
+	}
+
+	section > .nateon > .nateon-container > .emoticon > .gif {
+		left: 15%;
+		top: 52%;
+		width: 30%;
+		height: 30%;
+		background-size: contain;
+	}
+
+	section > .nateon > p {
+		top: 50%;
+		width: 8%;
+		height: 20%;
+		margin-top: -10%;
+		text-indent: -9999px;
+	}
+	section > .nateon > p > a {
+		height: 100%;
+	}
+
+	section > .noteon-always {
+		height: 900px;
+	}
+
+	section > .noteon-always > h2 {
+		left: 10%;
+		top: 10%;
+		width: 80%;
+		margin-left: 0;
+		font-size: 26px;
+		text-align: center;
+	}
+	section > .noteon-always > p {
+		left: 13%;
+		top: 22%;
+		width: 74%;
+		margin-left: 0;
+		font-size: 13px;
+		line-height: 30px;
+	}
+
+	section > .noteon-always > .dnld {
+		left: 17.5%;
+		bottom: 0;
+		top: 47%;
+		width: 65%;
+		margin-left: 0;
+		font-size: 16px;
+	}
+
+	section > .noteon-always > .dnld > ul {
+		float: initial;
+		width: 100%;
+	}
+
+	section > .noteon-always > .dnld > ul > li:first-child {
+		color: #dedede;
+	}
+
+	section > .noteon-always > .dnld > ul > li > a::after {
+		left: 90%;
+		top: 16%;
+		width: 20px;
+		height: 20px;
+	}
+
+	section > .noteon-always > .dnld > ul > li:nth-child(3) > a::after {
+		top: 28%;
+	}
+
+	section > .noteon-always > .dnld > ul:nth-child(2) > li > a::after {
+		top: 51%;
+		left: 90%;
+	}
+	section > .noteon-always > .dnld > ul:nth-child(2) > li:nth-child(3) > a::after {
+		top: 63%;
+	}
+
+	footer {
+		width: 100%;
+		height: 300px;
+		margin: 0 auto 0;
+		line-height: 50px;
+		text-align: center;
+	}
+
+	footer > ul > li {
+		float: initial;
+		margin-right: initial;
+	}
+
+	footer > ul > li > a {
+		padding-right: initial;
+		border-right: initial;
+	}
+	footer > ul > li > a.on {
+		font-weight: 600;
+	}
+
+	footer > address {
+		right: 10%;
+		top: 80%;
+		width: 80%;
+		font-size: 13px;
+	}
+}
