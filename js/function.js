@@ -317,11 +317,12 @@ $(function () {
 		$('.ver').remove();
 		$('<p>모바일 버전입니다 :)</p>').appendTo('.letter3');
 		
-				$('.mobile>a').on('click', function (evt) {
+		$('.mobile>a').on('click', function (evt) {
 			evt.preventDefault();
 
 			$('.ver-pop-wrap').stop().hide();
 			alert('모바일 버전입니다 :)');
+		});
 	}
 
 	// ipad
