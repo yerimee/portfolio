@@ -169,6 +169,19 @@ $(function () {
 	$('.cont0>img').on('mouseleave', function () {
 		$(this).attr('src', './images/about.png');
 	});
+	
+	// 모바일 버전 이벤트
+	$('.mobile>a').on('click', function (evt) {
+		evt.preventDefault();
+
+		$('.ver-pop-wrap').stop().fadeIn();
+	});
+
+	$('.ver-pop-close').on('click', function (evt) {
+		evt.preventDefault();
+
+		$('.ver-pop-wrap').stop().fadeOut();
+	});
 
 	// popup 이벤트
 	$('.close-pop').on('click',function(evt){
@@ -303,6 +316,12 @@ $(function () {
 
 		$('.ver').remove();
 		$('<p>모바일 버전입니다 :)</p>').appendTo('.letter3');
+		
+				$('.mobile>a').on('click', function (evt) {
+			evt.preventDefault();
+
+			$('.ver-pop-wrap').stop().hide();
+			alert('모바일 버전입니다 :)');
 	}
 
 	// ipad
